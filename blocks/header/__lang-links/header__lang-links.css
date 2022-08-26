@@ -8,3 +8,11 @@
   column-gap: 18px;
   padding-bottom: 5px;
 }
+
+@media screen and (max-width: 767px) {
+  .header__lang-links {
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: 7px;
+  }
+}
