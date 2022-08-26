@@ -1,0 +1,5 @@
+@media screen and (max-width: 1023px) {
+  .place__tittle_shift {
+    padding-right: 30px;
+  }
+}

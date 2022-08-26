@@ -1,9 +1,32 @@
 .photo-grid {
-  margin: 0 auto 92px;
+  margin: 92px auto 92px;
   display: grid;
-  max-width: 1184px;
+  max-width: calc(1280px - 2*48px);
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-template-rows: auto;
   gap: 16px;
   justify-items: center;
+}
+
+
+
+@media screen and (max-width: 1279px) {
+  .photo-grid {
+    max-width: calc(1024px - 2*48px);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+    max-width: calc(768px - 2*24px);
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    max-width: calc(320px - 2*16px);
+    margin: 64px auto;
+    gap: 12px;
+  }
 }
