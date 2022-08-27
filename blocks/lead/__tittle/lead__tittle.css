@@ -5,6 +5,8 @@
   font-size: 96px;
   font-weight: 900;
   text-align: center;
+  text-rendering: optimizeLegibility;
+
 }
 
 @media screen and (max-width: 767px) {
