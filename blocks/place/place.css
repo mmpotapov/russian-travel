@@ -25,6 +25,9 @@
     grid-template-columns: 340px 352px;
     padding-bottom: 73px;
   }
+  .place:first-child .place__title{
+    padding-right: 30px;
+  }
 }
 
 @media screen and (max-width: 767px) {

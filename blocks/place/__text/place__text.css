@@ -14,7 +14,7 @@
   .place__text {
     max-width: 352px;
     font-size: 16px;
-    line-height: 161%;
+    line-height: 162%;
   }
 }
 
@@ -22,6 +22,5 @@
   .place__text {
     max-width: 288px;
     margin: 0 16px;
-    line-height: 163%;
   }
 }
