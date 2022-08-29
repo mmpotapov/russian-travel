@@ -3,3 +3,8 @@
   text-decoration: none;
   color: #FFFFFF;
 }
+
+.footer__link:hover {
+  opacity: .8;
+  transition: opacity .08s ease-out;
+}
