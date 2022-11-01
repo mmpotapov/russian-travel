@@ -4,6 +4,12 @@
   margin-block-start: 0;
   margin-block-end: 0;
   font-size: 12px;
-  line-height: 18px;
+  line-height: 17px;
   margin-top: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__list {
+    line-height: 18px;
+  }
 }

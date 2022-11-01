@@ -1,6 +1,7 @@
 .cover__image {
-  width: 1184px;
-  min-height: 740px;
+  margin: 0 auto;
+  width: 100%;
+  aspect-ratio: 1184/740;
   background-image: url('./../../../images/travel.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,14 +33,14 @@
 }
 
 
-@media screen and (max-width: 1279px) {
+/* @media screen and (max-width: 1279px) {
   .cover__image {
     width: 1024px;
     min-height: 640px;
   }
-}
+} */
 
-@media screen and (max-width: 1023px) {
+/* @media screen and (max-width: 1023px) {
   .cover__image {
     width: 768px;
     min-height: 480px;
@@ -51,4 +52,4 @@
     width: 320px;
     min-height: 200px;
   }
-}
+} */
