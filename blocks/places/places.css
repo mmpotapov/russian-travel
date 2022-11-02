@@ -1,6 +1,4 @@
 .places {
-  margin: 0 auto 92px;
-
   max-width: calc(984px + 2*48px);
 
   display: flex;
@@ -15,7 +13,6 @@
   .places {
     padding-left: 24px;
     padding-right: 24px;
-    margin-bottom: 87px;
   }
 }
 
@@ -23,6 +20,5 @@
   .places {
     padding-left: 0;
     padding-right: 0;
-    margin-bottom: 64px;
   }
 }

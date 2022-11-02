@@ -1,6 +1,4 @@
 .lead {
-  margin: 0 auto 92px;
-
   max-width: calc(984px + 2*48px);
 
   display: flex;
@@ -15,13 +13,5 @@
   .lead {
     padding-left: 0px;
     padding-right: 0px;
-    margin-bottom: 87px;
-
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .lead {
-    margin-bottom: 64px;
   }
 }

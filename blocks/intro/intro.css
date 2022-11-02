@@ -1,6 +1,4 @@
 .intro {
-  margin: 0 auto 92px;
-
   max-width: calc(984px + 2*48px);
 
   padding-left: 48px;
@@ -13,7 +11,6 @@
     max-width: 100%;
     padding-left: 24px;
     padding-right: 24px;
-    margin-bottom: 87px;
   }
 }
 
@@ -21,6 +18,5 @@
   .intro {
     padding-left: 16px;
     padding-right: 16px;
-    margin-bottom: 64px;
   }
 }
